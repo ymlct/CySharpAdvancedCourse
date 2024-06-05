@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace L1Task1
@@ -14,83 +15,99 @@ namespace L1Task1
     {
         public static void Main(string[] args)
         {
-
-            var year = new Year();
-
-            var months = year.GetMonthsByAmountOfDays(31);
-            foreach (var m in months)
-            {
-                Console.WriteLine(m.Title);
-            }
-            
-            var month = year.GetMonthByOrdinal(1);
-            Console.WriteLine(month.Title);
         }
     }
 
-    internal class Year
+    internal class MyList<T> : IEnumerable<T>
     {
-        public readonly Month[] _months;
+
+        private T[] _elements;
         
-        public List<Month> GetMonthsByAmountOfDays(int amountOfDays)
+        private int _pointer;
+
+        public int Count => _elements.Length;
+        
+        
+        
+        public MyList()
         {
-            List<Month> months = new List<Month>();
-            
-            for (var i = 0; i < _months.Length; i++)
+            _elements = new T[] { };
+            _pointer = 0;
+        }
+
+        public T this[int idx]
+        {
+            get
             {
-                var month = _months[i];
-                if (month.AmountOfDays == amountOfDays)
+                if (idx > _pointer) throw new ArgumentException();
+                return _elements[idx];
+            }
+            set
+            {
+                if (idx > _pointer) throw new ArgumentException();
+                
+                _elements[idx] = value;
+                
+                if (idx == _pointer) _pointer++;
+                
+                if (_pointer == Count)
                 {
-                    months.Add(month);
+                    _elements = IncreaseCapacity(_elements, Count * 2);
                 }
             }
-            return months;
-        }
-        
-        public Month GetMonthByOrdinal(int ordinal)
-        {
-            Month month = null;
-            
-            if (ordinal >= 1 && ordinal <= 12)
-            {
-                month = _months[ordinal - 1];
-            }
-            return month;
         }
 
-        public Year()
+        private T[] IncreaseCapacity(T[] current, int newSize)
         {
-            _months = new[]
+            T[] newElements = new T[newSize];
+
+            for (int i = 0; i < current.Length; i++)
             {
-                new Month(1, 31, "Январь"),
-                new Month(2, 28, "Февраль"),
-                new Month(3, 31, "Март"),
-                new Month(4, 30, "Апрель"),
-                new Month(5, 31, "Май"),
-                new Month(6, 30, "Июнь"),
-                new Month(7, 31, "Июль"),
-                new Month(8, 31, "Август"),
-                new Month(9, 30, "Сентябрь"),
-                new Month(10, 31, "Октябрь"),
-                new Month(11, 30, "Ноябрь"),
-                new Month(12, 31, "Декабрь")
-            };
+                newElements[i] = current[i];
+            }
+
+            return newElements;
+        }
+
+
+        IEnumerator<T> IEnumerable<T>.GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            throw new NotImplementedException();
         }
     }
-
-    internal class Month
+    
+    internal class MyListEnumerator<T> : IEnumerator<T>
     {
-        public string Title { get; private set; }
-        
-        public int Ordinal { get; private set; }
-        
-        public int AmountOfDays { get; private set; }
 
-        public Month(int ordinal, int amountOfDays, string title)
+        private MyList<T> _list;
+
+        public MyListEnumerator(MyList<T> list)
         {
-            Ordinal = ordinal;
-            AmountOfDays = amountOfDays;
-            Title = title;
+            this._list = list;
+        }
+
+        object IEnumerator.Current => Current;
+
+        public T Current { get; }
+
+        public bool MoveNext()
+        {
+            throw new NotImplementedException();
+        }
+        
+        public void Reset()
+        {
+            throw new NotImplementedException();
+        }
+        
+        public void Dispose()
+        {
+            throw new NotImplementedException();
         }
     }
 }
