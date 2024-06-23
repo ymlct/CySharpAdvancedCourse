@@ -22,45 +22,20 @@
     <projectFile>CySharpAdvancedCourse/Lesson7/L7Task1/L7Task1.csproj</projectFile>
     <projectFile>CySharpAdvancedCourse/Lesson7/L7Task2/L7Task2/L7Task2.csproj</projectFile>
     <projectFile>CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Reflector.csproj</projectFile>
+    <projectFile>CySharpAdvancedCourse/Lesson8/L8Task1/ConsoleApp1/ConsoleApp1.csproj</projectFile>
+    <projectFile>CySharpAdvancedCourse/Lesson8/L8Task1/L8Task1/L8Task1.csproj</projectFile>
+    <projectFile>CySharpAdvancedCourse/Lesson8/L8Task2/L8Task2/L8Task2.csproj</projectFile>
+    <projectFile>CySharpAdvancedCourse/Lesson9/L9Task1/L9Task1.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a30cb4df-0b7f-4337-b80a-58c28c7dcb7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson3/L3Task2/test_directory/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson3/L3Task2/test_directory/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson3/L3Task2/test_directory/subdirectory/compressed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson3/L3Task2/test_directory/subdirectory/test_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson6/L6Task1/L6Task1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson6/L6Task1/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson6/L6Task1/TemperatureConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson6/L6Task2/L6Task2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson6/L6Task2/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson6/L6Task2/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task1/L7Task1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task1/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector.sln.DotSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector.sln.docstates.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector.v11.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Form1.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Form1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Form1.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Properties/Resources.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Properties/Resources.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Properties/Settings.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Properties/Settings.settings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Reflector.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson7/L7Task2/Reflector/Reflector/Reflector.csproj.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+    <list default="true" id="a30cb4df-0b7f-4337-b80a-58c28c7dcb7a" name="Changes" comment="добавлены решения задач для урока 8">
+      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson9/L9Task1/L9Task1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson9/L9Task1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CySharpAdvancedCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CySharpAdvancedCourse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CySharpAdvancedCourse.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CySharpAdvancedCourse.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson3/L3Task2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson3/L3Task2/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +81,25 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.Reflector">
+  <component name="RunManager" selected=".NET Project.L9Task1">
+    <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson8/L8Task1/ConsoleApp1/ConsoleApp1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="CySharpAdvancedCourse" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -467,6 +460,60 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="L8Task1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson8/L8Task1/L8Task1/L8Task1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="L8Task2" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson8/L8Task2/L8Task2/L8Task2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="L9Task1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson9/L9Task1/L9Task1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Reflector" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -505,6 +552,8 @@
       <workItem from="1718513028014" duration="5726000" />
       <workItem from="1718576919990" duration="2372000" />
       <workItem from="1718579330469" duration="383000" />
+      <workItem from="1718579920386" duration="133000" />
+      <workItem from="1719177828281" duration="5034000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1716334225459</created>
@@ -520,7 +569,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717629981303</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавлены решения задач">
+      <created>1718580037474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718580037474</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавлены решения задач для урока 8">
+      <created>1719181771389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719181771389</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +606,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="добавлено решение задачи 3 для урока 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлено решение задачи 3 для урока 1" />
+    <MESSAGE value="добавлены решения задач" />
+    <MESSAGE value="добавлены решения задач для урока 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены решения задач для урока 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
