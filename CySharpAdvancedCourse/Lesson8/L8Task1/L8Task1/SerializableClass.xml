@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomRootName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StringField>Some string</StringField>
+  <DoubleField>1.2</DoubleField>
+  <ListOfInts>
+    <int>1</int>
+    <int>2</int>
+    <int>3</int>
+  </ListOfInts>
+  <CustomTypeField>
+    <BoolField>true</BoolField>
+  </CustomTypeField>
+</CustomRootName>
