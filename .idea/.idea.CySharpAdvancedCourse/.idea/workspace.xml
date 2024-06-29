@@ -5,6 +5,8 @@
     <projectFile>CySharpAdvancedCourse/Lesson1/L1Task1/L1Task1.csproj</projectFile>
     <projectFile>CySharpAdvancedCourse/Lesson1/L1Task2/L1Task2.csproj</projectFile>
     <projectFile>CySharpAdvancedCourse/Lesson1/L1Task3/L1Task3.csproj</projectFile>
+    <projectFile>CySharpAdvancedCourse/Lesson10/L10Task1/L10Task1.csproj</projectFile>
+    <projectFile>CySharpAdvancedCourse/Lesson11/L11Task1/L11Task1.csproj</projectFile>
     <projectFile>CySharpAdvancedCourse/Lesson2/L2Task1/L2Task1.csproj</projectFile>
     <projectFile>CySharpAdvancedCourse/Lesson2/L2Task2/L2Task2.csproj</projectFile>
     <projectFile>CySharpAdvancedCourse/Lesson2/L2Task3/L2Task3/L2Task3.csproj</projectFile>
@@ -31,9 +33,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a30cb4df-0b7f-4337-b80a-58c28c7dcb7a" name="Changes" comment="добавлены решения задач для урока 8">
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson9/L9Task1/L9Task1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson9/L9Task1/Program.cs" afterDir="false" />
+    <list default="true" id="a30cb4df-0b7f-4337-b80a-58c28c7dcb7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson10/L10Task1/L10Task1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson10/L10Task1/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson11/L11Task1/L11Task1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson11/L11Task1/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson11/L11Task1/files/destination.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson11/L11Task1/files/source_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson11/L11Task1/files/source_2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CySharpAdvancedCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CySharpAdvancedCourse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CySharpAdvancedCourse.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CySharpAdvancedCourse.sln" afterDir="false" />
     </list>
@@ -81,7 +88,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.L9Task1">
+  <component name="RunManager" selected=".NET Project.L11Task1">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -113,6 +120,42 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="L10Task1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson10/L10Task1/L10Task1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="L11Task1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CySharpAdvancedCourse/Lesson11/L11Task1/L11Task1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
         <option name="Build" />
@@ -553,7 +596,8 @@
       <workItem from="1718576919990" duration="2372000" />
       <workItem from="1718579330469" duration="383000" />
       <workItem from="1718579920386" duration="133000" />
-      <workItem from="1719177828281" duration="5034000" />
+      <workItem from="1719177828281" duration="5138000" />
+      <workItem from="1719644840003" duration="5653000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1716334225459</created>
@@ -583,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719181771389</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="добавлены решения задач для уроков 8, 9">
+      <created>1719183083318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719183083318</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +659,9 @@
     <MESSAGE value="добавлено решение задачи 3 для урока 1" />
     <MESSAGE value="добавлены решения задач" />
     <MESSAGE value="добавлены решения задач для урока 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены решения задач для урока 8" />
+    <MESSAGE value="lj,f" />
+    <MESSAGE value="добавлены решения задач для уроков 8, 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены решения задач для уроков 8, 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
