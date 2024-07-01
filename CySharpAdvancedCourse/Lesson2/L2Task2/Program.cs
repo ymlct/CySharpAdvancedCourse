@@ -1,4 +1,6 @@
-﻿namespace L2Task2
+﻿using System.Collections.Generic;
+
+namespace L2Task2
 {
     /*
     Задание 3
@@ -9,6 +11,11 @@
     {
         public static void Main(string[] args)
         {
+            // Первый способ
+            var dict = new Dictionary<int, double>();
+
+            // Второй способ
+            var sortedDict = new SortedDictionary<int, double>();
         }
     }
 }
